@@ -1,0 +1,20 @@
+name: aidea_chat_ui_example
+description: 不连后端的 AIdea 聊天界面验收演示。
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  aidea_chat_ui:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
